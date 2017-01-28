@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.japanese"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.japanese.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.Lessons"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.LESSONS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.HOME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.Quizzes"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.QUIZZES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.Dictionary"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DICTIONARY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.Introductory"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.INTRODUCTORY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.Greetings"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.GREETINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.Common"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.COMMON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.Restaurant"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.RESTAURANT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.QOne"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.QONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.QTwo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.QTWO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.QThree"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.QTHREE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.QFour"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.QFOUR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.QFive"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.QFIVE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.QSix"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.QSIX" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.QSeven"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.QSEVEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.QEight"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.QEIGHT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.QNine"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.QNINE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.japanese.QTen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.QTEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
